@@ -1,0 +1,123 @@
+/* GERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, arial, sans-serif;
+    color: rgb(0, 0, 0);
+    border: none;
+} 
+
+body {
+    background-image: url(img/bg.jpg);
+    background-size: auto;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: 1rem; /* proporcional a telas*/
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+/* login */
+
+#login {
+    background-image: url(img/bg_postit.jpg);
+    background-size: 500px 900px;
+    border: 2px solid black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 30px;
+    margin-top: 10vh; /* proporcional a telas*/
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* formulario */
+
+form {
+    margin-top:30px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size:1rem;
+}
+
+input {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.863);
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 209, 152);
+}
+
+input:hover {
+    background-color:rgb(251, 199, 199);
+    border-radius: 10px;
+    border-bottom: 3px solid rgb(167, 30, 30);
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"]{
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid black;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    background-color: rgb(15, 15, 59);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(32, 32, 100);
+    transition: .4s;
+}
+
+/* redes sociais */
+
+#redes_socias, #registrar p {
+    margin-bottom: 20px;
+}
+
+#redes_socias i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: aliceblue;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f {
+    background-color: #3B5998;
+}
+
+.fa-linkedin {
+    background-color: #0077B5;
+}
